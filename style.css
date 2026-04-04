@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #121212;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main2{
+    height: 50vw;
+    width: 70%;
+    background-color: #121212;
+    color: white;
+}
+.main2 p{
+    padding: 1rem;
+    font-size: 0.7rem;
+}
+.menu{
+    padding: 0.5rem;
+}
+.menu span{
+    margin-left: 0.5rem;
+    font-size: 1.3em;
+}
+input{
+    width: 99%;
+    height: 11vh;
+    text-align: right;
+    font-size: 4em;
+    border: none;
+    outline: none;
+    margin-top: 5rem;
+    background-color: #121212;
+    color: white;
+    
+}
+.mc{
+    display: flex;
+    gap: 2vw;
+    font-weight: 550;
+    opacity: 0.8;
+    color: #9E9E9E;
+
+}
+
+.button button{
+    margin-top: 0.2rem;
+    height: 11.5vh;
+    width: 24.7%;
+    font-size: 2em;
+    background-color: #2f3135;
+    background-color: #2A2A2A;
+    color: #FFFFFF;
+    border: none;
+}
+
+button.green {
+    background-color:#ef752a;
+    color: white;
+}
+button.equal{
+    background-color: #04b54d;
+}
+
+button:active{
+    opacity: 0.5;
+}
+
+
+#ce{
+    color: red;
+}
+#c{
+    color:#ef752a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1300px) {
+    .main2{
+        height: 100dvh;
+        width: 100%;
+        /* background-color: #17191a; */
+        background-color: #121212;
+    
+    }
+    input{
+        font-size: 3rem;
+    }
+    
+.button button{
+    height: 11vh;
+    width: 24%;
+    border-radius: 10%;
+}
+button.black{
+background-color: #121212;
+}
+button.green {
+    background-color:#FF8C42;
+    color: white;
+}
+#c{
+    color: #FF8C42;
+}
+button.equal{
+    background-color: #00C853;
+}
+}
