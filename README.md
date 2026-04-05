@@ -9,7 +9,6 @@ The calculator is designed to work smoothly across different screen sizes like m
 * Responsive design (works on all devices)
 * Clean and modern UI
 * Real-time calculation
-* Keyboard support (optional if you added)
 
 ## 📱 Responsiveness
 
@@ -37,7 +36,7 @@ This project is fully responsive and adapts to:
 * Add scientific calculator features
 * Dark mode toggle
 * Better animations
-
+* kyeboard support
 ---
 
 ⭐ This is my first responsive project, and I’m continuously improving my skills.
